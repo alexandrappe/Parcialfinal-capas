@@ -1,8 +1,8 @@
 # Parcial Final Programación N-Capas – Seguridad con Spring Security + JWT
 
 ## Estudiantes
-- **Nombre del estudiante 1:** Josué Fernando Gómez Guardado – 00103722
-- **Nombre del estudiante 2:**  Paola Alexandra Pérez Pérez  – 00117222  
+- **Nombre de estudiante 1:** Josué Fernando Gómez Guardado – 00103722
+- **Nombre de estudiante 2:**  Paola Alexandra Pérez Pérez  – 00117222  
 - **Sección:** 1  
 
 endpoint en insomna: http://localhost:8080/auth/login
