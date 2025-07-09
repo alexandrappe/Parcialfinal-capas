@@ -1,9 +1,14 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/supportdb
-    username: postgres
-    password: root
+    url:      ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/supportdb}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:admin123}
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+# JWT parametros para usar
+jwt:
+  secret:     ${SPRING_JWT_SECRET:Z3VuaGZxc291YnB3aGZxb3VjaXIzYnFzb3Vna2hranU=}
+  expiration: ${SPRING_JWT_EXPIRATION_MS:3600000}  # 1 hora en ms
